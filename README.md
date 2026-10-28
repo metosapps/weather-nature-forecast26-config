@@ -5,9 +5,10 @@ This repository belongs only to `app.weather.metaapps.forecast26`, the Weather N
 - Repository: `https://github.com/metosapps/weather-nature-forecast26-config`
 - App endpoint: `https://raw.githubusercontent.com/metosapps/weather-nature-forecast26-config/main/config.json`
 - Public pages: `https://metosapps.github.io/weather-nature-forecast26-config/`
-- Initial revision: `2026-10-26.forecast26.1`, config version `1`
+- Current revision: `2026-10-28.forecast26.2`, config version `2`
+- Initial revision (historical): `2026-10-26.forecast26.1`, config version `1`
 - This repository contains public config and static pages. Their publication does not establish app-store availability or production monetization readiness.
-- App-specific support email, confirmed by the owner: `apps@agafayhotels.com`.
+- App-specific support email, confirmed by the owner: `contact@agafaycamels.com`.
 
 ## Initial state
 
@@ -49,7 +50,7 @@ Banner SDK automatic refresh is separate from manual request pacing. The client 
 
 ## Public pages
 
-The responsive landing page uses Weather Nature branding, the approved 512×512 icon, six featured screenshots and a real app metrics screen. It links to the package-specific Galaxy Store destination, Privacy Policy, Terms of Use, Help and Support. The confirmed support contact is `apps@agafayhotels.com`. A website deployment does not establish Galaxy Store publication or availability.
+The responsive landing page uses Weather Nature branding, the approved 512×512 icon, six featured screenshots and a real app metrics screen. It links to the package-specific Galaxy Store destination, Privacy Policy, Terms of Use, Help and Support. The confirmed support contact is `contact@agafaycamels.com`. A website deployment does not establish Galaxy Store publication or availability.
 
 - Landing: `https://metosapps.github.io/weather-nature-forecast26-config/`
 - Privacy: `https://metosapps.github.io/weather-nature-forecast26-config/privacy.html`
@@ -62,4 +63,4 @@ The official Galaxy Store badge is preserved without modification from Samsung's
 
 Preview locally with `python3 -m http.server 8768 --bind 127.0.0.1`, then visit `http://127.0.0.1:8768`. No build or dependencies are required. `site.js` handles only gallery arrow navigation; native horizontal scrolling works without JavaScript. Pages contain no analytics scripts, third-party JavaScript, contact form or payment checkout. Support buttons open the visitor's email app and do not send a message automatically.
 
-The existing app Website menu already uses the landing URL. The October 28 website update does not change `config.json`, advertising, IAP or APK behavior. Provider disclosures describe existing weather, Firebase, advertising, GitHub and Samsung integrations; disabled advertising does not claim that every bundled third-party SDK is uninitialized.
+The existing app Website menu already uses the landing URL. The initial October 28 landing-page update did not change `config.json`, advertising, IAP or APK behavior. The later contact-email update changes only the support email and the configuration version/revision; all other configuration values are unchanged. Provider disclosures describe existing weather, Firebase, advertising, GitHub and Samsung integrations; disabled advertising does not claim that every bundled third-party SDK is uninitialized.

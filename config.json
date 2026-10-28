@@ -2,8 +2,8 @@
   "schema_version": 1,
   "package": "app.weather.metaapps.forecast26",
   "store": "galaxy_store",
-  "config_version": 1,
-  "revision": "2026-10-26.forecast26.1",
+  "config_version": 2,
+  "revision": "2026-10-28.forecast26.2",
   "refresh_seconds": 300,
   "max_cache_age_seconds": 259200,
   "global": {
@@ -27,7 +27,7 @@
   "links": {
     "privacy_policy": "https://metosapps.github.io/weather-nature-forecast26-config/privacy.html",
     "terms": "https://metosapps.github.io/weather-nature-forecast26-config/terms.html",
-    "support_email": "apps@agafayhotels.com",
+    "support_email": "contact@agafaycamels.com",
     "website": "https://metosapps.github.io/weather-nature-forecast26-config/",
     "help": "https://metosapps.github.io/weather-nature-forecast26-config/help.html",
     "rate": "samsungapps://ProductDetail/app.weather.metaapps.forecast26",
