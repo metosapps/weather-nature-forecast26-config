@@ -2,9 +2,9 @@
 
 This repository belongs only to `app.weather.metaapps.forecast26`, the Weather Nature Galaxy Store app. It is an independent initial configuration, not a migration of another app's users, purchases or ad identity.
 
-- Intended repository: `https://github.com/metosapps/weather-nature-forecast26-config`
+- Repository: `https://github.com/metosapps/weather-nature-forecast26-config`
 - App endpoint: `https://raw.githubusercontent.com/metosapps/weather-nature-forecast26-config/main/config.json`
-- Intended public pages: `https://metosapps.github.io/weather-nature-forecast26-config/`
+- Public pages: `https://metosapps.github.io/weather-nature-forecast26-config/`
 - Initial revision: `2026-10-26.forecast26.1`, config version `1`
 - This repository contains public config and static pages. Their publication does not establish app-store availability or production monetization readiness.
 - App-specific support email, confirmed by the owner: `apps@agafayhotels.com`.
@@ -49,6 +49,17 @@ Banner SDK automatic refresh is separate from manual request pacing. The client 
 
 ## Public pages
 
-The static landing, privacy, terms and help pages use Weather Nature branding and the approved original icon. No screenshots, customer claims, downloads, seller record or commercial products from another app are reused. The Galaxy Store link names this package's intended destination and is explicitly not a claim of availability. The confirmed support contact is `apps@agafayhotels.com`.
+The responsive landing page uses Weather Nature branding, the approved 512×512 icon, six featured screenshots and a real app metrics screen. It links to the package-specific Galaxy Store destination, Privacy Policy, Terms of Use, Help and Support. The confirmed support contact is `apps@agafayhotels.com`. A website deployment does not establish Galaxy Store publication or availability.
 
-Pages contain no analytics scripts, third-party JavaScript, contact form or payment checkout. Their provider links describe the existing weather, Firebase, advertising, GitHub and Samsung integrations; disabled advertising does not claim that every bundled third-party SDK is uninitialized.
+- Landing: `https://metosapps.github.io/weather-nature-forecast26-config/`
+- Privacy: `https://metosapps.github.io/weather-nature-forecast26-config/privacy.html`
+- Terms: `https://metosapps.github.io/weather-nature-forecast26-config/terms.html`
+- Support: `https://metosapps.github.io/weather-nature-forecast26-config/support.html`
+- Help: `https://metosapps.github.io/weather-nature-forecast26-config/help.html`
+- Store destination: `https://galaxystore.samsung.com/detail/app.weather.metaapps.forecast26`
+
+The official Galaxy Store badge is preserved without modification from Samsung's English PNG: `https://img.samsungapps.com/seller/images/badges/galaxyStore/png_big/GalaxyStore_English.png` (652×177; SHA-256 `d4567c3150ad0f87a0e34bc16c19b82e5976850de2a148669a873aae457bd6f3`). See Samsung's [badge guidance](https://developer.samsung.com/galaxy-store/gsb-promotion/manage-your-gsb.html). The six featured PNGs are the approved Weather Nature originals; CSS scales their display without altering them.
+
+Preview locally with `python3 -m http.server 8768 --bind 127.0.0.1`, then visit `http://127.0.0.1:8768`. No build or dependencies are required. `site.js` handles only gallery arrow navigation; native horizontal scrolling works without JavaScript. Pages contain no analytics scripts, third-party JavaScript, contact form or payment checkout. Support buttons open the visitor's email app and do not send a message automatically.
+
+The existing app Website menu already uses the landing URL. The October 28 website update does not change `config.json`, advertising, IAP or APK behavior. Provider disclosures describe existing weather, Firebase, advertising, GitHub and Samsung integrations; disabled advertising does not claim that every bundled third-party SDK is uninitialized.
