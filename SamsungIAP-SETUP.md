@@ -2,7 +2,7 @@
 
 Package: `app.weather.metaapps.forecast26`
 
-Status: no product IDs or Seller Portal Content ID are assigned in this repository. New purchases and the IAP kill switch are off, and `iap.products` is empty. The confirmed app support address is `contact@agafaycamels.com`. No checkout or Restore validation has been performed for this new package.
+Status: Seller Portal content ID `000009363750` has active products `weather_nature_pro_weekly`, `weather_nature_pro_monthly`, `weather_nature_pro_yearly`, and `weather_nature_pro_lifetime`. Configuration version 3 enables IAP for these IDs. The confirmed support address is `contact@agafaycamels.com`. Successful checkout and Restore remain to be verified on this package.
 
 The compiled integration supports ad removal using subscriptions and one-time items. If the owner chooses weekly, monthly and yearly plans, create distinct products for this app in Galaxy Seller Portal. Use the exact resulting IDs; do not copy another package's catalog or invent available offers. A one-time item uses the existing `lifetime` config type and is acknowledged without being consumed. Subscription entries use `subscription`; their actual period, title, localized price and terms come from Samsung's catalog.
 

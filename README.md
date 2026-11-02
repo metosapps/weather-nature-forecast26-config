@@ -5,7 +5,7 @@ This repository belongs only to `app.weather.metaapps.forecast26`, the Weather N
 - Repository: `https://github.com/metosapps/weather-nature-forecast26-config`
 - App endpoint: `https://raw.githubusercontent.com/metosapps/weather-nature-forecast26-config/main/config.json`
 - Public pages: `https://metosapps.github.io/weather-nature-forecast26-config/`
-- Current revision: `2026-10-28.forecast26.2`, config version `2`
+- Current revision: `2026-11-02.forecast26.3`, config version `3`
 - Initial revision (historical): `2026-10-26.forecast26.1`, config version `1`
 - This repository contains public config and static pages. Their publication does not establish app-store availability or production monetization readiness.
 - App-specific support email, confirmed by the owner: `contact@agafaycamels.com`.
@@ -14,7 +14,7 @@ This repository belongs only to `app.weather.metaapps.forecast26`, the Weather N
 
 All advertising is disabled, including test advertising: global, production, kill switch, all four format switches, all fifteen placement switches and banner collapsible flags are false. The AdMob App ID and every unit ID are empty. No other app's AdMob identity is retained. A compiled sample App ID is a build placeholder, not this app's production AdMob identity.
 
-Samsung IAP is disabled at both `iap.enabled` and `kill_switches.iap_enabled`. The product list is empty. No seller Content ID, product ID, price or purchase from another app belongs to this package. See `SamsungIAP-SETUP.md` for the configuration contract.
+Samsung IAP is enabled for the four Weather Nature products in Seller Portal content ID `000009363750`. Advertising remains disabled. Catalog, checkout, receipt verification and Restore must be checked on the actual app and an eligible Samsung account; enabling configuration does not itself establish that a purchase can complete. See `SamsungIAP-SETUP.md` for the configuration contract.
 
 Maintenance and update prompts are disabled. The initial minimum/latest app version code is 1 for both existing store-schema entries. The app's active store is Galaxy Store. Google Play metadata is retained for schema compatibility; it does not claim a Play listing or release.
 

@@ -2,8 +2,8 @@
   "schema_version": 1,
   "package": "app.weather.metaapps.forecast26",
   "store": "galaxy_store",
-  "config_version": 2,
-  "revision": "2026-10-28.forecast26.2",
+  "config_version": 3,
+  "revision": "2026-11-02.forecast26.3",
   "refresh_seconds": 300,
   "max_cache_age_seconds": 259200,
   "global": {
@@ -36,7 +36,7 @@
   "features": {},
   "kill_switches": {
     "ads_enabled": false,
-    "iap_enabled": false
+    "iap_enabled": true
   },
   "ads": {
     "enabled": false,
@@ -220,7 +220,28 @@
     }
   },
   "iap": {
-    "enabled": false,
-    "products": []
+    "enabled": true,
+    "products": [
+      {
+        "id": "weather_nature_pro_weekly",
+        "type": "subscription",
+        "enabled": true
+      },
+      {
+        "id": "weather_nature_pro_monthly",
+        "type": "subscription",
+        "enabled": true
+      },
+      {
+        "id": "weather_nature_pro_yearly",
+        "type": "subscription",
+        "enabled": true
+      },
+      {
+        "id": "weather_nature_pro_lifetime",
+        "type": "lifetime",
+        "enabled": true
+      }
+    ]
   }
 }
