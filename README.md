@@ -5,14 +5,14 @@ This repository belongs only to `app.weather.metaapps.forecast26`, the Weather N
 - Repository: `https://github.com/metosapps/weather-nature-forecast26-config`
 - App endpoint: `https://raw.githubusercontent.com/metosapps/weather-nature-forecast26-config/main/config.json`
 - Public pages: `https://metosapps.github.io/weather-nature-forecast26-config/`
-- Current revision: `2026-11-02.forecast26.3`, config version `3`
+- Current revision: `2026-11-02.forecast26.4`, config version `4`
 - Initial revision (historical): `2026-10-26.forecast26.1`, config version `1`
 - This repository contains public config and static pages. Their publication does not establish app-store availability or production monetization readiness.
 - App-specific support email, confirmed by the owner: `contact@agafaycamels.com`.
 
 ## Initial state
 
-All advertising is disabled, including test advertising: global, production, kill switch, all four format switches, all fifteen placement switches and banner collapsible flags are false. The AdMob App ID and every unit ID are empty. No other app's AdMob identity is retained. A compiled sample App ID is a build placeholder, not this app's production AdMob identity.
+All advertising is disabled: global, production, kill switch, all four format switches and all fifteen placement switches remain false. Version 4 stores the Weather Nature AdMob app ID and four format-specific unit IDs; availability of IDs does not activate advertising. Releases before version code 7 retain the sample App ID and will not match the production configuration. Verify the actual installed APK and obtain explicit owner authorization before enabling any ads.
 
 Samsung IAP is enabled for the four Weather Nature products in Seller Portal content ID `000009363750`. Advertising remains disabled. Catalog, checkout, receipt verification and Restore must be checked on the actual app and an eligible Samsung account; enabling configuration does not itself establish that a purchase can complete. See `SamsungIAP-SETUP.md` for the configuration contract.
 
